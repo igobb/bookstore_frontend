@@ -4,7 +4,6 @@ import Spinner from '../components/Spinner'
 import axios from 'axios'
 import { useNavigate, useParams } from 'react-router-dom'
 import ActionButton from '../components/ActionButton'
-import { BsGear } from 'react-icons/bs'
 
 const DeleteBook = () => {
   const [title, setTitle] = useState('')
